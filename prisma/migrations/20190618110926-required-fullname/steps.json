@@ -1,0 +1,11 @@
+{
+  "version": "0.0.99",
+  "steps": [
+    {
+      "stepType": "UpdateField",
+      "model": "User",
+      "name": "fullName",
+      "arity": "required"
+    }
+  ]
+}

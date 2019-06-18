@@ -1,0 +1,19 @@
+{
+  "name": "lift-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:prisma/lift-demo.git",
+  "author": "timsuchanek <tim.suchanek@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prisma2": "^0.0.57",
+    "ts-node": "^8.3.0",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "typescript": "^3.5.2"
+  },
+  "scripts": {
+    "start": "ts-node main.ts",
+    "dev": "ts-node-dev --respawn --no-notify --transpileOnly main.ts",
+    "install": "prisma2 generate"
+  }
+}
